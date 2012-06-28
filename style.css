@@ -56,6 +56,24 @@ h1{
 	}
 }
 
+@-o-keyframes spinCubeO {
+	0% { 
+		-moz-transform: translateZ( -100px ) rotateX(   0deg ) rotateY(   0deg ); 
+	}
+	100% { 
+		-moz-transform: translateZ( -100px ) rotateX( 360deg ) rotateY( 360deg ); 
+	}
+}
+
+@keyframes spinCube{
+	0% { 
+		-moz-transform: translateZ( -100px ) rotateX(   0deg ) rotateY(   0deg ); 
+	}
+	100% { 
+		-moz-transform: translateZ( -100px ) rotateX( 360deg ) rotateY( 360deg ); 
+	}
+}
+
 #cube > div {
 	display: block;
 	position: absolute;
