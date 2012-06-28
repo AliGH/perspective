@@ -46,28 +46,48 @@ h1{
 
 #cube .front  {
 	background-color: hsla(   0, 100%, 50%, 0.7 ); 
-	-webkit-transform: translateZ( 100px );
-	-moz-transform: translateZ( 100px );
-	-o-transform: translateZ( 100px );
-	transform: translateZ( 100px );
+	-webkit-transform: translateZ(100px);
+	-moz-transform: translateZ(100px);
+	-o-transform: translateZ(100px);
+	transform: translateZ(100px);
 }
 
 #cube .back {
 	background-color: hsla(  60, 100%, 50%, 0.7 );
+	-webkit-transform: rotateX(-180deg) translateZ(100px);
+	-moz-transform: rotateX(-180deg) translateZ(100px);
+	-o-transform: rotateX(-180deg) translateZ(100px);
+	transform: rotateX(-180deg) translateZ(100px);
 }
 
 #cube .right {
 	background-color: hsla( 120, 100%, 50%, 0.7 );
+	-webkit-transform: rotateY(90deg) translateZ(100px);
+	-moz-transform: rotateY(90deg) translateZ(100px);
+	-o-transform: rotateY(90deg) translateZ(100px);
+	transform: rotateY(90deg) translateZ(100px);
 }
 
 #cube .left {
 	background-color: hsla( 180, 100%, 50%, 0.7 );
+	-webkit-transform: rotateY(-90deg) translateZ(100px);
+	-moz-transform: rotateY(-90deg) translateZ(100px);
+	-o-transform: rotateY(-90deg) translateZ(100px);
+	transform: rotateY(-90deg) translateZ(100px);
 }
 
 #cube .top {
 	background-color: hsla( 240, 100%, 50%, 0.7 );
+	-webkit-transform: rotateX(90deg) translateZ(100px);
+	-moz-transform: rotateX(90deg) translateZ(100px);
+	-o-transform: rotateX(90deg) translateZ(100px);
+	transform: rotateX(90deg) translateZ(100px);
 }
 
 #cube .bottom {
 	background-color: hsla( 300, 100%, 50%, 0.7 );
+	-webkit-transform: rotateX(-90deg) translateZ(100px);
+	-moz-transform: rotateX(-90deg) translateZ(100px);
+	-o-transform: rotateX(-90deg) translateZ(100px);
+	transform: rotateX(-90deg) translateZ(100px);
 }
