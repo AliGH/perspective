@@ -2,8 +2,24 @@ body{
 	background-image:url(images/pattern_bg.jpg);
 }
 
+.content{
+	width:980px;
+	margin:0 auto;
+}
+
+.cube-container {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto 40px;
+	border: 1px solid #CCC;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	-o-perspective: 1200px;
+	perspective: 1200px;
+}
+
 h1{
 	font-variant:small-caps;
 	color:#5F5;
 }
-
