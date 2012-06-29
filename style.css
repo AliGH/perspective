@@ -8,7 +8,7 @@ body{
 }
 
 .cube-container {
-	height: 200px;
+	height: 170px;
 	position: relative;
 	margin: 0 auto 40px;
 	border: 1px solid #CCC;
@@ -31,7 +31,7 @@ h1{
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-animation: spincubeWebkit 8s infinite ease-in-out;
+	-webkit-animation: spincubeWebkit 15s infinite ease-in-out;
 	-moz-animation: spincubeMoz    8s infinite ease-in-out;
 	-o-animation: spincubeO      8s infinite ease-in-out;
 	animation: spincube       8s infinite ease-in-out;
@@ -59,7 +59,7 @@ h1{
 
 #cube5 {
 	top:0;
-	left:800px;
+	left:830px;
 }
 
 
@@ -74,6 +74,7 @@ h1{
 	font-weight: bold;
 	color: white;
 	text-align: center;
+	text-transform:uppercase;
 }
 
 .front  {
@@ -86,7 +87,7 @@ h1{
 
 .back {
 	background-color: hsla(  60, 100%, 50%, 0.7 );
-	-webkit-transform: rotateX(-180deg) translateZ(86px);
+	-webkit-transform: rotateY(-180deg) translateZ(86px);
 	-moz-transform: rotateX(-180deg) translateZ(100px);
 	-o-transform: rotateX(-180deg) translateZ(100px);
 	transform: rotateX(-180deg) translateZ(100px);
@@ -124,13 +125,47 @@ h1{
 	transform: rotateX(-90deg) translateZ(100px);
 }
 
-/*@-webkit-keyframes spincubeWebkit {
+@-webkit-keyframes spincubeWebkit {
 	0% { 
-		-webkit-transform: translateZ( -100px ) rotateX(   0deg ) rotateY(   0deg ); 
+		-webkit-transform: rotateX(0) translateY(-340px);
 	}
-	100% { 
-		-webkit-transform: translateZ( -100px ) rotateX( 360deg ) rotateY( 360deg ); 
+	8%{
+		-webkit-transform: rotateX(0) translateZ(0);
 	}
+	16%{
+		-webkit-transform: rotateX(90deg) translateY(340px);
+	}
+	32%{
+		-webkit-transform: rotateX(90deg) translateY(0);
+	}
+	40%{
+		-webkit-transform: rotateX(-90deg) translateY(340px);
+	}
+	48%{
+		-webkit-transform: rotateX(-90deg) translateY(0);
+	}
+	56%{
+		-webkit-transform: rotateY(90deg);
+	}
+	64%{
+		-webkit-transform: rotateY(90deg);
+	}
+	72%{
+		-webkit-transform: rotateY(-90deg);
+	}
+	80%{
+		-webkit-transform: rotateY(-90deg);
+	}
+	86%{
+		-webkit-transform:translateY(50px) rotateX(40deg) rotateY(-180deg) ;
+	}
+	96%{
+		-webkit-transform:rotateX(0) rotateY(-180deg) ;
+	}
+	100%{
+		-webkit-transform: rotateX(0) translateY(-340px);
+	}
+
 }
 
 @-moz-keyframes spincubeMoz {
@@ -158,4 +193,4 @@ h1{
 	100% { 
 		-moz-transform: translateZ( -100px ) rotateX( 360deg ) rotateY( 360deg ); 
 	}
-}*/
+}
