@@ -31,10 +31,10 @@ h1{
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-animation: spincubeWebkit 18s infinite ease-in-out;
-	-moz-animation: spincubeMoz    18s infinite ease-in-out;
-	-o-animation: spincubeO      18s infinite ease-in-out;
-	animation: spincube       18s infinite ease-in-out;
+	-webkit-animation: spincubeWebkit 18s infinite cubic-bezier(.34,1,1,.47);
+	-moz-animation: spincubeMoz    18s infinite cubic-bezier(.34,1,1,.47);
+	-o-animation: spincubeO      18s infinite cubic-bezier(.34,1,1,.47);
+	animation: spincube       18s infinite cubic-bezier(.34,1,1,.47);
 	-webkit-transform: rotateX(0) translateY(-340px);
 	-moz-transform: rotateX(0) translateY(-340px);
 	-o-transform: rotateX(0) translateY(-340px);
