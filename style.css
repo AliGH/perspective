@@ -24,8 +24,8 @@ h1{
 }
 
 .cube-container > div{
-	width:200px;
-	height:200px;
+	width:170px;
+	height:170px;
 	position: absolute;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
@@ -45,6 +45,21 @@ h1{
 #cube2 {
 	top:0;
 	left:200px;
+}
+
+#cube3 {
+	top:0;
+	left:400px;
+}
+
+#cube4 {
+	top:0;
+	left:600px;
+}
+
+#cube5 {
+	top:0;
+	left:800px;
 }
 
 
