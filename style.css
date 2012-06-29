@@ -80,49 +80,49 @@ h1{
 .front  {
 	background-color: hsla(   0, 100%, 50%, 0.7 ); 
 	-webkit-transform: translateZ(86px);
-	-moz-transform: translateZ(100px);
-	-o-transform: translateZ(100px);
-	transform: translateZ(100px);
+	-moz-transform: translateZ(86px);
+	-o-transform: translateZ(86px);
+	transform: translateZ(86px);
 }
 
 .back {
 	background-color: hsla(  60, 100%, 50%, 0.7 );
 	-webkit-transform: rotateY(-180deg) translateZ(86px);
-	-moz-transform: rotateX(-180deg) translateZ(100px);
-	-o-transform: rotateX(-180deg) translateZ(100px);
-	transform: rotateX(-180deg) translateZ(100px);
+	-moz-transform: rotateY(-180deg) translateZ(86px);
+	-o-transform: rotateY(-180deg) translateZ(86px);
+	transform: rotateY(-180deg) translateZ(86px);
 }
 
 .right {
 	background-color: hsla( 120, 100%, 50%, 0.7 );
 	-webkit-transform: rotateY(90deg) translateZ(86px);
-	-moz-transform: rotateY(90deg) translateZ(100px);
-	-o-transform: rotateY(90deg) translateZ(100px);
-	transform: rotateY(90deg) translateZ(100px);
+	-moz-transform: rotateY(90deg) translateZ(86px);
+	-o-transform: rotateY(90deg) translateZ(86px);
+	transform: rotateY(90deg) translateZ(86px);
 }
 
 .left {
 	background-color: hsla( 180, 100%, 50%, 0.7 );
 	-webkit-transform: rotateY(-90deg) translateZ(86px);
-	-moz-transform: rotateY(-90deg) translateZ(100px);
-	-o-transform: rotateY(-90deg) translateZ(100px);
-	transform: rotateY(-90deg) translateZ(100px);
+	-moz-transform: rotateY(-90deg) translateZ(86px);
+	-o-transform: rotateY(-90deg) translateZ(86px);
+	transform: rotateY(-90deg) translateZ(86px);
 }
 
 .top {
 	background-color: hsla( 240, 100%, 50%, 0.7 );
 	-webkit-transform: rotateX(90deg) translateZ(86px);
-	-moz-transform: rotateX(90deg) translateZ(100px);
-	-o-transform: rotateX(90deg) translateZ(100px);
-	transform: rotateX(90deg) translateZ(100px);
+	-moz-transform: rotateX(90deg) translateZ(86px);
+	-o-transform: rotateX(90deg) translateZ(86px);
+	transform: rotateX(90deg) translateZ(86px);
 }
 
 .bottom {
 	background-color: hsla( 300, 100%, 50%, 0.7 );
 	-webkit-transform: rotateX(-90deg) translateZ(86px);
-	-moz-transform: rotateX(-90deg) translateZ(100px);
-	-o-transform: rotateX(-90deg) translateZ(100px);
-	transform: rotateX(-90deg) translateZ(100px);
+	-moz-transform: rotateX(-90deg) translateZ(86px);
+	-o-transform: rotateX(-90deg) translateZ(86px);
+	transform: rotateX(-90deg) translateZ(86px);
 }
 
 @-webkit-keyframes spincubeWebkit {
