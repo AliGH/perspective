@@ -31,35 +31,56 @@ h1{
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-animation: spincubeWebkit 15s infinite ease-in-out;
-	-moz-animation: spincubeMoz    15s infinite ease-in-out;
-	-o-animation: spincubeO      15s infinite ease-in-out;
-	animation: spincube       15s infinite ease-in-out;
+	-webkit-animation: spincubeWebkit 18s infinite ease-in-out;
+	-moz-animation: spincubeMoz    18s infinite ease-in-out;
+	-o-animation: spincubeO      18s infinite ease-in-out;
+	animation: spincube       18s infinite ease-in-out;
+	-webkit-transform: rotateX(0) translateY(-340px);
+	-moz-transform: rotateX(0) translateY(-340px);
+	-o-transform: rotateX(0) translateY(-340px);
+	-transform: rotateX(0) translateY(-340px);
 }
 
 #cube1 {
 	top:0;
 	left:0;
+	
 }
 
 #cube2 {
 	top:0;
 	left:200px;
+	-webkit-animation-delay:150ms;
+	-moz-animation-delay:150ms;
+	-o-animation-delay:150ms;
+	animation-delay:150ms;
 }
 
 #cube3 {
 	top:0;
 	left:400px;
+	-webkit-animation-delay:300ms;
+	-moz-animation-delay:300ms;
+	-o-animation-delay:300ms;
+	animation-delay:300ms;
 }
 
 #cube4 {
 	top:0;
 	left:600px;
+	-webkit-animation-delay:450ms;
+	-moz-animation-delay:450ms;
+	-o-animation-delay:450ms;
+	animation-delay:450ms;
 }
 
 #cube5 {
 	top:0;
 	left:830px;
+	-webkit-animation-delay:600ms;	
+	-moz-animation-delay:600ms;
+	-o-animation-delay:600ms;
+	animation-delay:600ms;
 }
 
 
@@ -128,7 +149,7 @@ h1{
 @-webkit-keyframes spincubeWebkit {
 	
 	0% { 
-		-webkit-transform: rotateX(0) translateY(-340px);
+		-webkit-transform: rotateX(30deg) translateY(-340px);
 	}
 	8%{
 		-webkit-transform: rotateX(0) translateZ(0);
@@ -172,7 +193,7 @@ h1{
 @-moz-keyframes spincubeMoz {
 	
 	0% { 
-		-moz-transform: rotateX(0) translateY(-340px);
+		-moz-transform: rotateX(30deg) translateY(-340px);
 	}
 	8%{
 		-moz-transform: rotateX(0) translateZ(0);
@@ -216,7 +237,7 @@ h1{
 @-o-keyframes spincubeO {
 	
 	0% { 
-		-o-transform: rotateX(0) translateY(-340px);
+		-o-transform: rotateX(30deg) translateY(-340px);
 	}
 	8%{
 		-o-transform: rotateX(0) translateZ(0);
@@ -260,7 +281,7 @@ h1{
 @keyframes spincube{
 	
 	0% { 
-		transform: rotateX(0) translateY(-340px);
+		transform: rotateX(30deg) translateY(-340px);
 	}
 	8%{
 		transform: rotateX(0) translateZ(0);
