@@ -38,7 +38,7 @@ h1{
 	-webkit-transform: rotateX(90deg) translateY(-80px);
 	-moz-transform: rotateX(90deg) translateY(-80px);
 	-o-transform: rotateX(90deg) translateY(-80px);
-	-transform: rotateX(90deg) translateY(-80px);
+	transform: rotateX(90deg) translateY(-80px);
 }
 
 #cube1 {
@@ -67,7 +67,7 @@ h1{
 
 #cube4 {
 	top:0;
-	left:540px;
+	left:530px;
 	-webkit-animation-delay:450ms;
 	-moz-animation-delay:450ms;
 	-o-animation-delay:450ms;
@@ -76,7 +76,7 @@ h1{
 
 #cube5 {
 	top:0;
-	left:740px;
+	left:718px;
 	-webkit-animation-delay:600ms;	
 	-moz-animation-delay:600ms;
 	-o-animation-delay:600ms;
