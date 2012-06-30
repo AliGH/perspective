@@ -49,7 +49,7 @@ h1{
 
 #cube2 {
 	top:0;
-	left:200px;
+	left:180px;
 	-webkit-animation-delay:150ms;
 	-moz-animation-delay:150ms;
 	-o-animation-delay:150ms;
@@ -58,7 +58,7 @@ h1{
 
 #cube3 {
 	top:0;
-	left:400px;
+	left:360px;
 	-webkit-animation-delay:300ms;
 	-moz-animation-delay:300ms;
 	-o-animation-delay:300ms;
@@ -67,7 +67,7 @@ h1{
 
 #cube4 {
 	top:0;
-	left:600px;
+	left:540px;
 	-webkit-animation-delay:450ms;
 	-moz-animation-delay:450ms;
 	-o-animation-delay:450ms;
@@ -76,7 +76,7 @@ h1{
 
 #cube5 {
 	top:0;
-	left:830px;
+	left:740px;
 	-webkit-animation-delay:600ms;	
 	-moz-animation-delay:600ms;
 	-o-animation-delay:600ms;
@@ -107,7 +107,7 @@ h1{
 	background-image:url(images/1.png);
 }
 #cube1 .front{
-	background-position:top left;
+	background-position:750px 0;
 }
 #cube2 .front{
 	background-position:600px 0;
@@ -128,6 +128,22 @@ h1{
 	-moz-transform: rotateY(-180deg) translateZ(86px);
 	-o-transform: rotateY(-180deg) translateZ(86px);
 	transform: rotateY(-180deg) translateZ(86px);
+	background-image:url(images/3.jpg);
+}
+#cube1 .back{
+	background-position:750px 0;
+}
+#cube2 .back{
+	background-position:600px 0;
+}
+#cube3 .back{
+	background-position:450px 0;
+}
+#cube4 .back{
+	background-position:300px 0;
+}
+#cube5 .back{
+	background-position:150px 0;
 }
 
 .right {
@@ -136,6 +152,22 @@ h1{
 	-moz-transform: rotateY(90deg) translateZ(86px);
 	-o-transform: rotateY(90deg) translateZ(86px);
 	transform: rotateY(90deg) translateZ(86px);
+	background-image:url(images/2.jpg);
+}
+#cube1 .right{
+	background-position:750px 0;
+}
+#cube2 .right{
+	background-position:600px 0;
+}
+#cube3 .right{
+	background-position:450px 0;
+}
+#cube4 .right{
+	background-position:300px 0;
+}
+#cube5 .right{
+	background-position:150px 0;
 }
 
 .left {
@@ -144,6 +176,22 @@ h1{
 	-moz-transform: rotateY(-90deg) translateZ(86px);
 	-o-transform: rotateY(-90deg) translateZ(86px);
 	transform: rotateY(-90deg) translateZ(86px);
+	background-image:url(images/4.jpg);
+}
+#cube1 .left{
+	background-position:750px 0;
+}
+#cube2 .left{
+	background-position:600px 0;
+}
+#cube3 .left{
+	background-position:450px 0;
+}
+#cube4 .left{
+	background-position:300px 0;
+}
+#cube5 .left{
+	background-position:150px 0;
 }
 
 .top {
