@@ -123,7 +123,7 @@ h1{
 }
 
 .left {
-	background-color: hsla( 180, 100%, 50%, 0.7 );
+	background-color: hsla( 300, 100%, 20%, 0.7 );
 	-webkit-transform: rotateY(-90deg) translateZ(86px);
 	-moz-transform: rotateY(-90deg) translateZ(86px);
 	-o-transform: rotateY(-90deg) translateZ(86px);
