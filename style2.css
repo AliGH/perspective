@@ -87,8 +87,8 @@ h1{
 .cube-container > div > div {
 	display: block;
 	position: absolute;
-	width: 170px;
-	height: 170px;
+	width: 150px;
+	height: 300px;
 	border: 2px solid black;
 	line-height: 170px;
 	font-size: 120px;
@@ -100,7 +100,7 @@ h1{
 
 .front  {
 	background-color: hsla(   0, 100%, 50%, 0.7 ); 
-	-webkit-transform: translateZ(86px);
+	-webkit-transform: translateZ(75px);
 	-moz-transform: translateZ(86px);
 	-o-transform: translateZ(86px);
 	transform: translateZ(86px);
@@ -108,7 +108,7 @@ h1{
 
 .back {
 	background-color: hsla(  60, 100%, 50%, 0.7 );
-	-webkit-transform: rotateY(-180deg) translateZ(86px);
+	-webkit-transform: rotateY(-180deg) translateZ(75px);
 	-moz-transform: rotateY(-180deg) translateZ(86px);
 	-o-transform: rotateY(-180deg) translateZ(86px);
 	transform: rotateY(-180deg) translateZ(86px);
@@ -116,7 +116,7 @@ h1{
 
 .right {
 	background-color: hsla( 120, 100%, 50%, 0.7 );
-	-webkit-transform: rotateY(90deg) translateZ(86px);
+	-webkit-transform: rotateY(90deg) translateZ(75px);
 	-moz-transform: rotateY(90deg) translateZ(86px);
 	-o-transform: rotateY(90deg) translateZ(86px);
 	transform: rotateY(90deg) translateZ(86px);
@@ -124,7 +124,7 @@ h1{
 
 .left {
 	background-color: hsla( 300, 100%, 20%, 0.7 );
-	-webkit-transform: rotateY(-90deg) translateZ(86px);
+	-webkit-transform: rotateY(-90deg) translateZ(75px);
 	-moz-transform: rotateY(-90deg) translateZ(86px);
 	-o-transform: rotateY(-90deg) translateZ(86px);
 	transform: rotateY(-90deg) translateZ(86px);
@@ -132,18 +132,22 @@ h1{
 
 .top {
 	background-color: hsla( 240, 100%, 50%, 0.7 );
-	-webkit-transform: rotateX(90deg) translateZ(86px);
+	-webkit-transform: rotateX(90deg) translateZ(75px);
 	-moz-transform: rotateX(90deg) translateZ(86px);
 	-o-transform: rotateX(90deg) translateZ(86px);
 	transform: rotateX(90deg) translateZ(86px);
+	width:150px !important;
+	height:150px !important;
 }
 
 .bottom {
 	background-color: hsla( 300, 100%, 50%, 0.7 );
-	-webkit-transform: rotateX(-90deg) translateZ(86px);
-	-moz-transform: rotateX(-90deg) translateZ(86px);
-	-o-transform: rotateX(-90deg) translateZ(86px);
-	transform: rotateX(-90deg) translateZ(86px);
+	-webkit-transform: rotateX(-90deg) translateZ(225px);
+	-moz-transform: rotateX(-90deg) translateZ(225px);
+	-o-transform: rotateX(-90deg) translateZ(225px);
+	transform: rotateX(-90deg) translateZ(225px);
+	width:150px !important;
+	height:150px !important;
 }
 
 @-webkit-keyframes spincubeWebkit {
