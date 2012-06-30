@@ -35,11 +35,11 @@ h1{
 	-moz-animation: spincubeMoz    18s infinite cubic-bezier(.34,1,1,.47);
 	-o-animation: spincubeO      18s infinite cubic-bezier(.34,1,1,.47);
 	animation: spincube       18s infinite cubic-bezier(.34,1,1,.47);
-/*	-webkit-transform: rotateX(0) translateY(-340px);
-	-moz-transform: rotateX(0) translateY(-340px);
-	-o-transform: rotateX(0) translateY(-340px);
-	-transform: rotateX(0) translateY(-340px);
-*/}
+	-webkit-transform: rotateX(90deg) translateY(-80px);
+	-moz-transform: rotateX(90deg) translateY(-80px);
+	-o-transform: rotateX(90deg) translateY(-80px);
+	-transform: rotateX(90deg) translateY(-80px);
+}
 
 #cube1 {
 	top:0;
@@ -218,11 +218,11 @@ h1{
 	8%{
 		-webkit-transform: rotateX(90deg) translateY(120px);
 	}
-	16%{
-		-webkit-transform: rotateX(90deg) translateY(220px);
+	10%{
+		-webkit-transform: rotateX(-90deg) translateY(0) rotateY(40deg);
 	}
 	32%{
-		-webkit-transform: rotateX(90deg) translateY(0);
+		-webkit-transform: rotateX(-90deg) translateY(500px);
 	}
 	40%{
 		-webkit-transform: rotateX(-90deg) translateY(340px);
