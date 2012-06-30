@@ -1,5 +1,5 @@
 body{
-	background-image:url(images/pattern_bg.jpg);
+	background-image:url(images/pattern_bg.png);
 }
 
 .content{
@@ -10,8 +10,6 @@ body{
 .cube-container {
 	height: 170px;
 	position: relative;
-	margin: 0 auto 40px;
-	border: 1px solid #CCC;
 	-webkit-perspective: 1200px;
 	-moz-perspective: 1200px;
 	-o-perspective: 1200px;
@@ -24,8 +22,8 @@ h1{
 }
 
 .cube-container > div{
-	width:170px;
-	height:170px;
+	width:150px;
+	height:300px;
 	position: absolute;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
@@ -219,10 +217,10 @@ h1{
 		-webkit-transform: rotateX(90deg) translateY(120px);
 	}
 	12%{
-		-webkit-transform: rotateX(-90deg) translateY(0) rotateY(40deg);
+		-webkit-transform: rotateX(-90deg) translateY(0) rotateY(10deg);
 	}
 	20%{
-		-webkit-transform: rotateX(-90deg) translateY(300px);
+		-webkit-transform: rotateX(-90deg) translateY(300px) rotateY(0);
 	}
 	24%{
 		-webkit-transform: rotateY(0) translateY(0px);
