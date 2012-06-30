@@ -258,43 +258,46 @@ h1{
 @-moz-keyframes spincubeMoz {
 	
 	0% { 
-		-moz-transform: rotateX(30deg) translateY(-340px);
+		-moz-transform: rotateX(90deg) translateY(-80px);
 	}
 	8%{
-		-moz-transform: rotateX(0) translateZ(0);
+		-moz-transform: rotateX(90deg) translateY(120px);
 	}
-	16%{
-		-moz-transform: rotateX(90deg) translateY(220px);
+	12%{
+		-moz-transform: rotateX(-90deg) translateY(0) rotateY(10deg);
 	}
-	32%{
-		-moz-transform: rotateX(90deg) translateY(0);
+	20%{
+		-moz-transform: rotateX(-90deg) translateY(300px) rotateY(0);
 	}
-	40%{
-		-moz-transform: rotateX(-90deg) translateY(340px);
+	24%{
+		-moz-transform: rotateY(0) translateY(0px);
+	}
+	34%{
+		-moz-transform: rotateY(0) rotateX(0);
+	}
+	38%{
+		-moz-transform: rotateY(180deg);
 	}
 	48%{
-		-moz-transform: rotateX(-90deg) translateY(0);
+		-moz-transform: rotateY(180deg);
 	}
-	56%{
-		-moz-transform: rotateY(90deg);
-	}
-	64%{
-		-moz-transform: rotateY(90deg);
-	}
-	72%{
+	52%{
 		-moz-transform: rotateY(-90deg);
 	}
-	80%{
-		-moz-transform: rotateY(-90deg);
+	62%{
+		-webkit-transform: rotateY(-90deg);
+	}
+	66%{
+		-moz-transform: rotateY(90deg);
 	}
 	86%{
-		-moz-transform:translateY(50px) rotateX(40deg) rotateY(-180deg) ;
+		-moz-transform: rotateY(90deg);
 	}
-	96%{
-		-moz-transform:rotateX(0) rotateY(-180deg) ;
+	90%{
+		-moz-transform: rotateX(0) translateY(-440px);
 	}
 	100%{
-		-moz-transform: rotateX(0) translateY(-340px);
+		-moz-transform: rotateX(0) translateY(-440px);
 	}
 
 }
@@ -302,43 +305,46 @@ h1{
 @-o-keyframes spincubeO {
 	
 	0% { 
-		-o-transform: rotateX(30deg) translateY(-340px);
+		-o-transform: rotateX(90deg) translateY(-80px);
 	}
 	8%{
-		-o-transform: rotateX(0) translateZ(0);
+		-o-transform: rotateX(90deg) translateY(120px);
 	}
-	16%{
-		-o-transform: rotateX(90deg) translateY(220px);
+	12%{
+		-o-transform: rotateX(-90deg) translateY(0) rotateY(10deg);
 	}
-	32%{
-		-o-transform: rotateX(90deg) translateY(0);
+	20%{
+		-o-transform: rotateX(-90deg) translateY(300px) rotateY(0);
 	}
-	40%{
-		-o-transform: rotateX(-90deg) translateY(340px);
+	24%{
+		-o-transform: rotateY(0) translateY(0px);
+	}
+	34%{
+		-o-transform: rotateY(0) rotateX(0);
+	}
+	38%{
+		-o-transform: rotateY(180deg);
 	}
 	48%{
-		-o-transform: rotateX(-90deg) translateY(0);
+		-o-transform: rotateY(180deg);
 	}
-	56%{
-		-o-transform: rotateY(90deg);
-	}
-	64%{
-		-o-transform: rotateY(90deg);
-	}
-	72%{
+	52%{
 		-o-transform: rotateY(-90deg);
 	}
-	80%{
+	62%{
 		-o-transform: rotateY(-90deg);
+	}
+	66%{
+		-o-transform: rotateY(90deg);
 	}
 	86%{
-		-o-transform:translateY(50px) rotateX(40deg) rotateY(-180deg) ;
+		-o-transform: rotateY(90deg);
 	}
-	96%{
-		-o-transform:rotateX(0) rotateY(-180deg) ;
+	90%{
+		-o-transform: rotateX(0) translateY(-440px);
 	}
 	100%{
-		-o-transform: rotateX(0) translateY(-340px);
+		-o-transform: rotateX(0) translateY(-440px);
 	}
 
 }
@@ -346,43 +352,46 @@ h1{
 @keyframes spincube{
 	
 	0% { 
-		transform: rotateX(30deg) translateY(-340px);
+		transform: rotateX(90deg) translateY(-80px);
 	}
 	8%{
-		transform: rotateX(0) translateZ(0);
+		transform: rotateX(90deg) translateY(120px);
 	}
-	16%{
-		transform: rotateX(90deg) translateY(220px);
+	12%{
+		transform: rotateX(-90deg) translateY(0) rotateY(10deg);
 	}
-	32%{
-		transform: rotateX(90deg) translateY(0);
+	20%{
+		transform: rotateX(-90deg) translateY(300px) rotateY(0);
 	}
-	40%{
-		transform: rotateX(-90deg) translateY(340px);
+	24%{
+		transform: rotateY(0) translateY(0px);
+	}
+	34%{
+		transform: rotateY(0) rotateX(0);
+	}
+	38%{
+		transform: rotateY(180deg);
 	}
 	48%{
-		transform: rotateX(-90deg) translateY(0);
+		transform: rotateY(180deg);
 	}
-	56%{
-		transform: rotateY(90deg);
-	}
-	64%{
-		transform: rotateY(90deg);
-	}
-	72%{
+	52%{
 		transform: rotateY(-90deg);
 	}
-	80%{
+	62%{
 		transform: rotateY(-90deg);
+	}
+	66%{
+		transform: rotateY(90deg);
 	}
 	86%{
-		transform:translateY(50px) rotateX(40deg) rotateY(-180deg) ;
+		transform: rotateY(90deg);
 	}
-	96%{
-		transform:rotateX(0) rotateY(-180deg) ;
+	90%{
+		transform: rotateX(0) translateY(-440px);
 	}
 	100%{
-		transform: rotateX(0) translateY(-340px);
+		transform: rotateX(0) translateY(-440px);
 	}
 
 }
