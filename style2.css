@@ -104,6 +104,22 @@ h1{
 	-moz-transform: translateZ(86px);
 	-o-transform: translateZ(86px);
 	transform: translateZ(86px);
+	background-image:url(images/1.png);
+}
+#cube1 .front{
+	background-position:top left;
+}
+#cube2 .front{
+	background-position:600px 0;
+}
+#cube3 .front{
+	background-position:450px 0;
+}
+#cube4 .front{
+	background-position:300px 0;
+}
+#cube5 .front{
+	background-position:150px 0;
 }
 
 .back {
