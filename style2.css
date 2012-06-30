@@ -99,7 +99,6 @@ h1{
 }
 
 .front  {
-	background-color: hsla(   0, 100%, 50%, 0.7 ); 
 	-webkit-transform: translateZ(75px);
 	-moz-transform: translateZ(75px);
 	-o-transform: translateZ(75px);
@@ -123,7 +122,6 @@ h1{
 }
 
 .back {
-	background-color: hsla(  60, 100%, 50%, 0.7 );
 	-webkit-transform: rotateY(-180deg) translateZ(75px);
 	-moz-transform: rotateY(-180deg) translateZ(75px);
 	-o-transform: rotateY(-180deg) translateZ(75px);
@@ -147,7 +145,6 @@ h1{
 }
 
 .right {
-	background-color: hsla( 120, 100%, 50%, 0.7 );
 	-webkit-transform: rotateY(90deg) translateZ(75px);
 	-moz-transform: rotateY(90deg) translateZ(75px);
 	-o-transform: rotateY(90deg) translateZ(75px);
@@ -171,7 +168,6 @@ h1{
 }
 
 .left {
-	background-color: hsla( 300, 100%, 20%, 0.7 );
 	-webkit-transform: rotateY(-90deg) translateZ(75px);
 	-moz-transform: rotateY(-90deg) translateZ(75px);
 	-o-transform: rotateY(-90deg) translateZ(75px);
