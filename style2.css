@@ -35,11 +35,11 @@ h1{
 	-moz-animation: spincubeMoz    18s infinite cubic-bezier(.34,1,1,.47);
 	-o-animation: spincubeO      18s infinite cubic-bezier(.34,1,1,.47);
 	animation: spincube       18s infinite cubic-bezier(.34,1,1,.47);
-	-webkit-transform: rotateX(0) translateY(-340px);
+/*	-webkit-transform: rotateX(0) translateY(-340px);
 	-moz-transform: rotateX(0) translateY(-340px);
 	-o-transform: rotateX(0) translateY(-340px);
 	-transform: rotateX(0) translateY(-340px);
-}
+*/}
 
 #cube1 {
 	top:0;
@@ -149,7 +149,7 @@ h1{
 	-moz-transform: rotateY(90deg) translateZ(75px);
 	-o-transform: rotateY(90deg) translateZ(75px);
 	transform: rotateY(90deg) translateZ(75px);
-	background-image:url(images/2.jpg);
+	background-image:url(images/5.png);
 }
 #cube1 .right{
 	background-position:750px 0;
@@ -213,10 +213,10 @@ h1{
 @-webkit-keyframes spincubeWebkit {
 	
 	0% { 
-		-webkit-transform: rotateX(30deg) translateY(-340px);
+		-webkit-transform: rotateX(90deg) translateY(-80px);
 	}
 	8%{
-		-webkit-transform: rotateX(0) translateZ(0);
+		-webkit-transform: rotateX(90deg) translateY(120px);
 	}
 	16%{
 		-webkit-transform: rotateX(90deg) translateY(220px);
