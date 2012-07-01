@@ -8,6 +8,7 @@ body{
 }
 
 .cube-container {
+	width:1000px;
 	height: 170px;
 	position: relative;
 	-webkit-perspective: 1200px;
@@ -33,11 +34,11 @@ h1{
 	-moz-animation: spincubeMoz    25s infinite cubic-bezier(.34,1,1,.47);
 	-o-animation: spincubeO      25s infinite cubic-bezier(.34,1,1,.47);
 	animation: spincube       25s infinite cubic-bezier(.34,1,1,.47);
-	-webkit-transform: rotateX(90deg) translateY(-80px);
+/*	-webkit-transform: rotateX(90deg) translateY(-80px);
 	-moz-transform: rotateX(90deg) translateY(-80px);
 	-o-transform: rotateX(90deg) translateY(-80px);
 	transform: rotateX(90deg) translateY(-80px);
-}
+*/}
 
 #cube1 {
 	top:0;
@@ -47,7 +48,7 @@ h1{
 
 #cube2 {
 	top:0;
-	left:180px;
+	left:304px;
 	-webkit-animation-delay:150ms;
 	-moz-animation-delay:150ms;
 	-o-animation-delay:150ms;
@@ -56,7 +57,7 @@ h1{
 
 #cube3 {
 	top:0;
-	left:360px;
+	left:455px;
 	-webkit-animation-delay:300ms;
 	-moz-animation-delay:300ms;
 	-o-animation-delay:300ms;
@@ -81,12 +82,21 @@ h1{
 	animation-delay:600ms;
 }
 
+#cube6 {
+	top:0;
+	left:530px;
+	-webkit-animation-delay:450ms;
+	-moz-animation-delay:450ms;
+	-o-animation-delay:450ms;
+	animation-delay:450ms;
+}
+
 
 .cube-container > div > div {
 	display: block;
 	position: absolute;
-	width: 150px;
-	height: 300px;
+	width: 100px;
+	height: 500px;
 	border: 2px solid black;
 	line-height: 170px;
 	font-size: 120px;
@@ -208,7 +218,7 @@ h1{
 	height:150px !important;
 }
 
-@-webkit-keyframes spincubeWebkit {
+/*@-webkit-keyframes spincubeWebkit {
 	
 	0% { 
 		-webkit-transform: rotateX(90deg) translateY(-80px);
@@ -394,4 +404,4 @@ h1{
 		transform: rotateX(0) translateY(-440px);
 	}
 
-}
+}*/
