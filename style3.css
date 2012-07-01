@@ -34,11 +34,11 @@ h1{
 	-moz-animation: spincubeMoz    25s infinite cubic-bezier(.34,1,1,.47);
 	-o-animation: spincubeO      25s infinite cubic-bezier(.34,1,1,.47);
 	animation: spincube       25s infinite cubic-bezier(.34,1,1,.47);
-/*	-webkit-transform: rotateX(90deg) translateY(-80px);
+	-webkit-transform: rotateX(90deg) translateY(-80px);
 	-moz-transform: rotateX(90deg) translateY(-80px);
 	-o-transform: rotateX(90deg) translateY(-80px);
 	transform: rotateX(90deg) translateY(-80px);
-*/}
+}
 
 #cube1 {
 	top:0;
@@ -109,10 +109,10 @@ h1{
 
 .front  {
 	-webkit-transform: translateZ(50px);
-	-moz-transform: translateZ(75px);
-	-o-transform: translateZ(75px);
-	transform: translateZ(75px);
-	/*background-image:url(images/1.png);*/
+	-moz-transform: translateZ(50px);
+	-o-transform: translateZ(50px);
+	transform: translateZ(50px);
+	background-image:url(images/1.png);
 	background-color:green;
 }
 #cube1 .front{
@@ -133,10 +133,10 @@ h1{
 
 .back {
 	-webkit-transform: rotateY(-180deg) translateZ(50px);
-	-moz-transform: rotateY(-180deg) translateZ(75px);
-	-o-transform: rotateY(-180deg) translateZ(75px);
-	transform: rotateY(-180deg) translateZ(75px);
-	/*background-image:url(images/3.jpg);*/
+	-moz-transform: rotateY(-180deg) translateZ(50px);
+	-o-transform: rotateY(-180deg) translateZ(50px);
+	transform: rotateY(-180deg) translateZ(50px);
+	background-image:url(images/3.jpg);
 	background-color:red;
 }
 #cube1 .back{
@@ -157,10 +157,10 @@ h1{
 
 .right {
 	-webkit-transform: rotateY(90deg) translateZ(50px);
-	-moz-transform: rotateY(90deg) translateZ(75px);
-	-o-transform: rotateY(90deg) translateZ(75px);
-	transform: rotateY(90deg) translateZ(75px);
-	/*background-image:url(images/5.png);*/
+	-moz-transform: rotateY(90deg) translateZ(50px);
+	-o-transform: rotateY(90deg) translateZ(50px);
+	transform: rotateY(90deg) translateZ(50px);
+	background-image:url(images/5.png);
 	background-color:blue;
 }
 #cube1 .right{
@@ -181,10 +181,10 @@ h1{
 
 .left {
 	-webkit-transform: rotateY(-90deg) translateZ(50px);
-	-moz-transform: rotateY(-90deg) translateZ(75px);
-	-o-transform: rotateY(-90deg) translateZ(75px);
-	transform: rotateY(-90deg) translateZ(75px);
-	/*background-image:url(images/4.jpg);*/
+	-moz-transform: rotateY(-90deg) translateZ(50px);
+	-o-transform: rotateY(-90deg) translateZ(50px);
+	transform: rotateY(-90deg) translateZ(50px);
+	background-image:url(images/4.jpg);
 	background-color:yellow;
 }
 #cube1 .left{
@@ -206,9 +206,9 @@ h1{
 .top {
 	background-color: hsla( 240, 100%, 50%, 0.7 );
 	-webkit-transform: rotateX(90deg) translateZ(50px);
-	-moz-transform: rotateX(90deg) translateZ(75px);
-	-o-transform: rotateX(90deg) translateZ(75px);
-	transform: rotateX(90deg) translateZ(75px);
+	-moz-transform: rotateX(90deg) translateZ(50px);
+	-o-transform: rotateX(90deg) translateZ(50px);
+	transform: rotateX(90deg) translateZ(50px);
 	width:100px !important;
 	height:100px !important;
 	opacity:1;
@@ -216,10 +216,10 @@ h1{
 
 .bottom {
 	background-color: hsla( 300, 100%, 50%, 0.7 );
-	-webkit-transform: rotateX(-90deg) translateZ(50px);
-	-moz-transform: rotateX(-90deg) translateZ(225px);
-	-o-transform: rotateX(-90deg) translateZ(225px);
-	transform: rotateX(-90deg) translateZ(225px);
+	-webkit-transform: rotateX(-90deg) translateZ(450px);
+	-moz-transform: rotateX(-90deg) translateZ(450px);
+	-o-transform: rotateX(-90deg) translateZ(450px);
+	transform: rotateX(-90deg) translateZ(450px);
 	width:100px !important;
 	height:100px !important;
 	opacity:1;
