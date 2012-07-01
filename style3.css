@@ -8,7 +8,7 @@ body{
 }
 
 .cube-container {
-	width:1000px;
+	/*width:1000px;*/
 	height: 170px;
 	position: relative;
 	-webkit-perspective: 1200px;
@@ -34,10 +34,6 @@ h1{
 	-moz-animation: spincubeMoz    25s infinite cubic-bezier(.34,1,1,.47);
 	-o-animation: spincubeO      25s infinite cubic-bezier(.34,1,1,.47);
 	animation: spincube       25s infinite cubic-bezier(.34,1,1,.47);
-	-webkit-transform: rotateX(90deg) translateY(-80px);
-	-moz-transform: rotateX(90deg) translateY(-80px);
-	-o-transform: rotateX(90deg) translateY(-80px);
-	transform: rotateX(90deg) translateY(-80px);
 }
 
 #cube1 {
@@ -48,7 +44,7 @@ h1{
 
 #cube2 {
 	top:0;
-	left:304px;
+	left:100px;
 	-webkit-animation-delay:150ms;
 	-moz-animation-delay:150ms;
 	-o-animation-delay:150ms;
@@ -57,7 +53,7 @@ h1{
 
 #cube3 {
 	top:0;
-	left:455px;
+	left:200px;
 	-webkit-animation-delay:300ms;
 	-moz-animation-delay:300ms;
 	-o-animation-delay:300ms;
@@ -66,25 +62,41 @@ h1{
 
 #cube4 {
 	top:0;
-	left:530px;
+	left:300px;
+	-webkit-animation-delay:450ms;
+	-moz-animation-delay:450ms;
+	-o-animation-delay:450ms;
+	animation-delay:450ms;
+}
+#cube4 {
+	top:0;
+	left:300px;
+	-webkit-animation-delay:450ms;
+	-moz-animation-delay:450ms;
+	-o-animation-delay:450ms;
+	animation-delay:450ms;
+}
+#cube5 {
+	top:0;
+	left:400px;
 	-webkit-animation-delay:450ms;
 	-moz-animation-delay:450ms;
 	-o-animation-delay:450ms;
 	animation-delay:450ms;
 }
 
-#cube5 {
+#cube6 {
 	top:0;
-	left:718px;
+	left:500px;
 	-webkit-animation-delay:600ms;	
 	-moz-animation-delay:600ms;
 	-o-animation-delay:600ms;
 	animation-delay:600ms;
 }
 
-#cube6 {
+#cube7 {
 	top:0;
-	left:530px;
+	left:600px;
 	-webkit-animation-delay:450ms;
 	-moz-animation-delay:450ms;
 	-o-animation-delay:450ms;
@@ -104,7 +116,6 @@ h1{
 	color: white;
 	text-align: center;
 	font-variant:small-caps;
-	opacity:.5;
 }
 
 .front  {
@@ -113,7 +124,6 @@ h1{
 	-o-transform: translateZ(50px);
 	transform: translateZ(50px);
 	background-image:url(images/1.png);
-	background-color:green;
 }
 #cube1 .front{
 	background-position:750px 0;
@@ -137,7 +147,6 @@ h1{
 	-o-transform: rotateY(-180deg) translateZ(50px);
 	transform: rotateY(-180deg) translateZ(50px);
 	background-image:url(images/3.jpg);
-	background-color:red;
 }
 #cube1 .back{
 	background-position:750px 0;
@@ -161,7 +170,6 @@ h1{
 	-o-transform: rotateY(90deg) translateZ(50px);
 	transform: rotateY(90deg) translateZ(50px);
 	background-image:url(images/5.png);
-	background-color:blue;
 }
 #cube1 .right{
 	background-position:750px 0;
@@ -185,7 +193,6 @@ h1{
 	-o-transform: rotateY(-90deg) translateZ(50px);
 	transform: rotateY(-90deg) translateZ(50px);
 	background-image:url(images/4.jpg);
-	background-color:yellow;
 }
 #cube1 .left{
 	background-position:750px 0;
@@ -211,7 +218,6 @@ h1{
 	transform: rotateX(90deg) translateZ(50px);
 	width:100px !important;
 	height:100px !important;
-	opacity:1;
 }
 
 .bottom {
@@ -222,7 +228,6 @@ h1{
 	transform: rotateX(-90deg) translateZ(450px);
 	width:100px !important;
 	height:100px !important;
-	opacity:1;
 }
 
 /*@-webkit-keyframes spincubeWebkit {
