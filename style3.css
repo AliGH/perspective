@@ -37,10 +37,10 @@ h1{
 	-o-transform-origin:0 245px;
 	-ms-transform-origin:0 245px;
 	transform-origin:0 245px;
-	-webkit-animation: spincubeWebkit 25s infinite cubic-bezier(.34,1,1,.47);
-	-moz-animation: spincubeMoz    25s infinite cubic-bezier(.34,1,1,.47);
-	-o-animation: spincubeO      25s infinite cubic-bezier(.34,1,1,.47);
-	animation: spincube       25s infinite cubic-bezier(.34,1,1,.47);
+	-webkit-animation: spincubeWebkit 25s infinite ease-in-out;
+	-moz-animation: spincubeMoz    25s infinite ease-in-out;
+	-o-animation: spincubeO      25s infinite ease-in-out;
+	animation: spincube       25s infinite ease-in-out;
 }
 
 #cube1 {
@@ -266,16 +266,16 @@ h1{
 		-webkit-transform: rotateX(0) translateY(0);
 	}
 	8%{
-		-webkit-transform: rotateX(90deg) translateY(120px);
+		-webkit-transform: rotateX(0) translateY(0);
 	}
 	12%{
-		-webkit-transform: rotateX(-90deg) translateY(0) rotateY(10deg);
+		-webkit-transform: rotateX(180deg) translateY(0);
 	}
 	20%{
-		-webkit-transform: rotateX(-90deg) translateY(300px) rotateY(0);
+		-webkit-transform: rotateX(180deg) translateY(0);
 	}
 	24%{
-		-webkit-transform: rotateY(0) translateY(0px);
+		-webkit-transform: rotateX(180deg) translateY(0px);
 	}
 	34%{
 		-webkit-transform: rotateY(0) rotateX(0);
