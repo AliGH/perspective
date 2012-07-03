@@ -8,11 +8,12 @@ body{
 }
 
 .cube-container {
-	/*width:1000px;*/
-	margin-left:15%;
+	width:715px;
+	margin-left:auto;
+	margin-right:auto;
 	height: 170px;
 	position: relative;
-	-webkit-perspective: 1200px;
+	-webkit-perspective: 22000px;/*chrome bug*/
 	-moz-perspective: 1200px;
 	-o-perspective: 1200px;
 	perspective: 1200px;
@@ -124,7 +125,7 @@ h1{
 	-moz-transform: translateZ(50px);
 	-o-transform: translateZ(50px);
 	transform: translateZ(50px);
-	background-image:url(images/6.jpg);
+	background-image:url(images/7.jpg);
 }
 #cube1 .front{
 	background-position:700px 0;
@@ -153,7 +154,7 @@ h1{
 	-moz-transform: rotateY(-180deg) translateZ(50px);
 	-o-transform: rotateY(-180deg) translateZ(50px);
 	transform: rotateY(-180deg) translateZ(50px);
-	background-image:url(images/7.jpg);
+	background-image:url(images/6.jpg);
 }
 #cube1 .back{
 	background-position:700px 0;
