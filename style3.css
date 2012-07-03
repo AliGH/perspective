@@ -9,6 +9,7 @@ body{
 
 .cube-container {
 	/*width:1000px;*/
+	margin-left:15%;
 	height: 170px;
 	position: relative;
 	-webkit-perspective: 1200px;
@@ -123,22 +124,28 @@ h1{
 	-moz-transform: translateZ(50px);
 	-o-transform: translateZ(50px);
 	transform: translateZ(50px);
-	background-image:url(images/1.png);
+	background-image:url(images/6.jpg);
 }
 #cube1 .front{
-	background-position:750px 0;
+	background-position:700px 0;
 }
 #cube2 .front{
 	background-position:600px 0;
 }
 #cube3 .front{
-	background-position:450px 0;
+	background-position:500px 0;
 }
 #cube4 .front{
-	background-position:300px 0;
+	background-position:400px 0;
 }
 #cube5 .front{
-	background-position:150px 0;
+	background-position:300px 0;
+}
+#cube6 .front{
+	background-position:200px 0;
+}
+#cube7 .front{
+	background-position:100px 0;
 }
 
 .back {
@@ -146,22 +153,28 @@ h1{
 	-moz-transform: rotateY(-180deg) translateZ(50px);
 	-o-transform: rotateY(-180deg) translateZ(50px);
 	transform: rotateY(-180deg) translateZ(50px);
-	background-image:url(images/3.jpg);
+	background-image:url(images/7.jpg);
 }
 #cube1 .back{
-	background-position:750px 0;
+	background-position:700px 0;
 }
 #cube2 .back{
 	background-position:600px 0;
 }
 #cube3 .back{
-	background-position:450px 0;
+	background-position:500px 0;
 }
 #cube4 .back{
-	background-position:300px 0;
+	background-position:400px 0;
 }
 #cube5 .back{
-	background-position:150px 0;
+	background-position:300px 0;
+}
+#cube6 .back{
+	background-position:200px 0;
+}
+#cube7 .back{
+	background-position:100px 0;
 }
 
 .right {
@@ -169,22 +182,28 @@ h1{
 	-moz-transform: rotateY(90deg) translateZ(50px);
 	-o-transform: rotateY(90deg) translateZ(50px);
 	transform: rotateY(90deg) translateZ(50px);
-	background-image:url(images/5.png);
+	background-image:url(images/8.png);
 }
 #cube1 .right{
-	background-position:750px 0;
+	background-position:700px 0;
 }
 #cube2 .right{
 	background-position:600px 0;
 }
 #cube3 .right{
-	background-position:450px 0;
+	background-position:500px 0;
 }
 #cube4 .right{
-	background-position:300px 0;
+	background-position:400px 0;
 }
 #cube5 .right{
-	background-position:150px 0;
+	background-position:300px 0;
+}
+#cube6 .right{
+	background-position:200px 0;
+}
+#cube7 .right{
+	background-position:100px 0;
 }
 
 .left {
@@ -192,22 +211,28 @@ h1{
 	-moz-transform: rotateY(-90deg) translateZ(50px);
 	-o-transform: rotateY(-90deg) translateZ(50px);
 	transform: rotateY(-90deg) translateZ(50px);
-	background-image:url(images/4.jpg);
+	background-image:url(images/9.jpg);
 }
 #cube1 .left{
-	background-position:750px 0;
+	background-position:700px 0;
 }
 #cube2 .left{
 	background-position:600px 0;
 }
 #cube3 .left{
-	background-position:450px 0;
+	background-position:500px 0;
 }
 #cube4 .left{
-	background-position:300px 0;
+	background-position:400px 0;
 }
 #cube5 .left{
-	background-position:150px 0;
+	background-position:400px 0;
+}
+#cube6 .left{
+	background-position:200px 0;
+}
+#cube7 .left{
+	background-position:right top;
 }
 
 .top {
