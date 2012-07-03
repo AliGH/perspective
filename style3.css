@@ -13,7 +13,7 @@ body{
 	margin-right:auto;
 	height: 170px;
 	position: relative;
-	-webkit-perspective: 22000px;/*chrome bug*/
+	-webkit-perspective: 600000px;/*chrome bug*/
 	-moz-perspective: 1200px;
 	-o-perspective: 1200px;
 	perspective: 1200px;
@@ -32,6 +32,11 @@ h1{
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+	-webkit-transform-origin:0 245px;
+	-moz-transform-origin:0 245px;
+	-o-transform-origin:0 245px;
+	-ms-transform-origin:0 245px;
+	transform-origin:0 245px;
 	-webkit-animation: spincubeWebkit 25s infinite cubic-bezier(.34,1,1,.47);
 	-moz-animation: spincubeMoz    25s infinite cubic-bezier(.34,1,1,.47);
 	-o-animation: spincubeO      25s infinite cubic-bezier(.34,1,1,.47);
@@ -111,7 +116,6 @@ h1{
 	position: absolute;
 	width: 100px;
 	height: 500px;
-	border: 2px solid black;
 	line-height: 170px;
 	font-size: 120px;
 	font-weight: bold;
@@ -256,10 +260,10 @@ h1{
 	height:100px !important;
 }
 
-/*@-webkit-keyframes spincubeWebkit {
+@-webkit-keyframes spincubeWebkit {
 	
 	0% { 
-		-webkit-transform: rotateX(90deg) translateY(-80px);
+		-webkit-transform: rotateX(0) translateY(0);
 	}
 	8%{
 		-webkit-transform: rotateX(90deg) translateY(120px);
@@ -442,4 +446,4 @@ h1{
 		transform: rotateX(0) translateY(-440px);
 	}
 
-}*/
+}
